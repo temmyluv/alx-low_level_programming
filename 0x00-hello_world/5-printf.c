@@ -1,10 +1,15 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- * main -function to display output-
- * Return: gives a feedback of 0
+ * *main - prints the phrase with proper grammar,
+ * * but the outcome is a piece of art,
+ * *Return: 0 if run succesfuly, non zero otherwise
 */
-main(void)
+
+int main(void)
 {
-		printf("\"with proper grammar, but the outcome is a piece of art,");
-			return (0);
+
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+
+
+	return (0);
 }
