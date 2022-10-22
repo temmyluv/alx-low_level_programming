@@ -7,19 +7,18 @@
 
 /**
  * print_numbers - Prints the numbers from 0-9.
+ * Return: void
  */
 void print_numbers(void)
 
 {
 
-int k;
+	char c;
 
-for (k = 0; k <= 9; k++)
-{
-_putchar(k + '0');
-
-}
-
-_putchar('\n');
+	for (c = '0'; c <= '9'; c++)
+	{
+	_putchar(c)
+	}
+	_putchar('\n');
 
 }
