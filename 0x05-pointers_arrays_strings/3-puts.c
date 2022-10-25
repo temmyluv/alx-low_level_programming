@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * _puts - prints a string
- * @str: string to be printed
+ * _puts - print a string
+ * @str:pointer char
  * return:void
  */
-
 void _puts(char *str)
 {
 	int i;
@@ -13,8 +12,7 @@ void _puts(char *str)
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		putchar(str[i]);
-	{
-
+	}
 putchar('\n');
 return;
 }
