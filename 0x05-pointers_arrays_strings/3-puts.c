@@ -3,13 +3,18 @@
 /**
  * _puts - prints a string
  * @str: string to be printed
+ * return:void
  */
 
 void _puts(char *str)
 {
-	while (*str)
+	int i;
 
-		_putchar(*str++);
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		putchar(str[i]);
+	{
 
-	_putchar('\n');
+putchar('\n');
+return;
 }
